@@ -8,7 +8,7 @@ Abdennour MESDOUR
 
 # Stack
 
-- [link]:[https://nextjs.org] - a React framework
+- [Nextjs][https://nextjs.org] - a React framework
 - [TailwindCSS][https://tailwindcss.com] - An open-source CSS framework
 
 # License
