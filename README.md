@@ -2,13 +2,13 @@
 
 # Author
 
-Abndennour MESDOUR
+Abdennour MESDOUR
 
 [Artfulcode.dev](https://artfulcode.dev)
 
 # Stack
 
-- [Nextjs][https://nextjs.org] - a React framework
+- [link][Nextjs] [Nextjs]:[https://nextjs.org] - a React framework
 - [TailwindCSS][https://tailwindcss.com] - An open-source CSS framework
 
 # License
