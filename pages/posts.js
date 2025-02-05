@@ -1,24 +1,31 @@
+import Link from "next/link";
 import Layout from "../components/layout";
+import UtilStyles from "../styles/utils.module.css";
+import Date from "../components/Date";
+import { getAllPosts, getAllPosIds } from "../lib/posts";
 
 const posts = function () {
-  const t = 1;
+  const posts = getAllPosts();
+
   return (
     <Layout>
-      <section className="mb-6">
-        <h3 className="mt-3 mb-4 text-2xl font-semibold">
-          Hi there, and welcome back to my website!
-        </h3>
-        <p className="indent-2 justify-content">
-          This page will soon feature a collection of articles covering new
-          technologies, tutorials, and more. I plan to contribute at least one
-          article per month. The first one will dive into LazyVim, an amazing
-          IDE built on Neovim. Don't worry, I&apos;ll cover all the details you
-          need to get started!{" "}
-        </p>
-        <p className="text-justify">
-          So, stay tuned and don&apos;t miss out on what coming next!
-        </p>
-      </section>
+      <article className={`${UtilStyles.headingMd} ${UtilStyles.padding1px}`}>
+        <div className="w-full">
+          <h3 className="leading-loose text-2xl mb-6">Popular Posts</h3>
+
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {posts.map(({ id, title, date }) => (
+              <li key={id} className="text-teal-600">
+                <Link href={`posts/${id}`}>{title}</Link>
+                <br />
+                <small className={UtilStyles.lightText}>
+                  <Date dateString={date} />
+                </small>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </article>
     </Layout>
   );
 };

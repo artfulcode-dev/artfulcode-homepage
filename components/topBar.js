@@ -28,7 +28,7 @@ export default function TopBar() {
             <Link href="/posts">Posts</Link>
           </h2>
           <h2 className="block tracking-widest hover:underline">
-            <Link href="https://github.com/artfulcode-dev-community/artfulcode.dev-homepage">
+            <Link href="https://github.com/artfulcode-dev/artfulcode-homepage">
               Source
             </Link>
           </h2>
@@ -64,7 +64,7 @@ export default function TopBar() {
           <Link href="/posts">Posts</Link>
         </h1>
         <h1 className="py-3 text-white text-center w-full hover:text-slate-400">
-          <Link href="https://github.com/artfulcode-dev-community/artfulcode.dev-homepage">
+          <Link href="https://github.com/artfulcode-dev/artfulcode-homepage">
             Source
           </Link>
         </h1>

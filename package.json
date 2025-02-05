@@ -4,7 +4,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prepare": "husky install",
     "prettier": "prettier --write ."
   },
   "lint-staged": {
