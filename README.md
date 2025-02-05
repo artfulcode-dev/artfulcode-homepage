@@ -19,4 +19,4 @@ Feel free to contact me at ***artfulcode.dev@gmail.com***
 
 MIT License.
 
-You can create your own homepage for free without informing me, as long as you don't use my profile photo.
+You can create your own homepage for free without informing me, as long as you don't use my profile photo 😊.
